@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Functions {
+public class Methods {
     public static int add2num(int a, int b) {
         int c = a+b;
         return c;

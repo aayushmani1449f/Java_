@@ -1,4 +1,4 @@
-public class Car {
+public class Car_OOP {
     String brand;
     String model;
     int speed;
@@ -15,7 +15,7 @@ public class Car {
     }
 
     static void main() {
-        Car car = new Car();
+        Car_OOP car = new Car_OOP();
         car.brand = "Tata";
         car.model = "Nano";
         car.speed = 40;
@@ -24,7 +24,7 @@ public class Car {
         System.out.println(car.brand +" "+  car.model);
         System.out.println("Speed : " + car.speed);
         car.deaccelerate(20);
-        System.out.println("New speed : "+car.speed);
+        System.out.println("New speed : "+ car.speed);
 
     }
 }
