@@ -1,19 +1,18 @@
-package Abstraction;
+package Encapsulation;
 
 public class Bank {
     private long acc_no;
     private int balance = 5000;
 
     void deposit(int n) {
-        balance = balance+n;
+        balance = balance + n;
     }
 
     void withdraw(int n) {
-        if (balance<0) {
+        if (balance < 0) {
             balance = 0;
-        }
-        else {
-            balance = balance-n;
+        } else {
+            balance = balance - n;
         }
     }
 
